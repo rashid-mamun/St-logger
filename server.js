@@ -1,5 +1,5 @@
-const connectWithDb = require('./src/config/database');
 const app = require('./src/app');
+const connectWithDb = require('./src/config/database');
 require('dotenv').config();
 
 /* express app initialization */
